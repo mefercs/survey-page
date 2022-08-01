@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SURVEY UPIITA</title>
+  <link rel="icon" href="https://www.upiita.ipn.mx/images/logo_upiita_ipn_varios_colores_logo_upiita_negro.png" type="image/x-icon">
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header id="header">
+      <h1>Students survey</h1>
+      <h4>Thank you for taking the help us improve the classes</h4>
+    </header>
+  <main id="main">
+    <form action="#">
+      <label for="name">NAME<br><input  class="input" type="text" placeholder="Your Name" required></label>
+      <label for="email">EMAIL<br><input class="input" type="email" placeholder="example@gmail.com" required></label>
+      <label for="age">AGE<br><input class="input" type="number" min="17" placeholder="18"></label>
+
+      <label for="career">Choose a career:</label>
+      <select name="career" id="career" >
+        <option value="volvo">Mechatronics</option>
+        <option value="saab">Telematics</option>
+        <option value="opel">Energy</option>
+        <option value="audi">Bionics</option>
+      </select> 
+      <label for="classroom">Which is your prefered classroom:</label>
+      <select name="classroom" id="classroom" >
+        <option value="audi">New building</option>
+        <option value="volvo">A1</option>
+        <option value="saab">A2</option>
+        <option value="opel">A3</option>
+        <option value="opel">A4</option>
+      </select> 
+      <fieldset>      
+        <legend>What is Your Favorite Place?</legend>      
+        <input type="checkbox" name="favorite_pet" value="Cats">Tables<br>      
+        <input type="checkbox" name="favorite_pet" value="Dogs">Bathrooms<br>      
+        <input type="checkbox" name="favorite_pet" value="Birds">Footbal   & gym<br>      
+      </fieldset>  
+      <fieldset>      
+        <legend>What is Your Favorite Pet?</legend>      
+        <input type="radio" name="favorite_pet" value="Cats">Cats<br>      
+        <input type="radio" name="favorite_pet" value="Dogs">Dogs<br>      
+        <input type="radio" name="favorite_pet" value="Birds">Birds<br>      
+        <input type="radio" name="favorite_pet" value="Cats">Cats<br>      
+        <input type="radio" name="favorite_pet" value="Dogs">Dogs<br>      
+        <input type="radio" name="favorite_pet" value="Birds">Birds<br>      
+      </fieldset>  
+      <label for="comments">Tell us your comments</label>
+      <textarea class="input" name="" id="comments" cols="60" rows="15"></textarea>
+      <input type="submit" value="SEND" id="submit">
+    </form>
+  </main>
+  <footer>
+    <p>Thanks for your feedback</p>
+  </footer>
+</body>
+</html>

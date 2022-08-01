@@ -1,0 +1,86 @@
+*{ 
+  margin:0; 
+  padding:0;
+}
+:root{ 
+  font-size: 62.8%;
+  font-family: "Noto Sans JP",sans-serif;
+}
+html{
+  background-image: url("https://mapio.net/images-p/74228311.jpg");
+  opacity:0.9;
+  color: white;
+}
+#header{ 
+  text-align:center;
+  margin: 20px auto;
+  font-size:2rem;
+}
+#main{
+  width: 90%;
+  max-width: 800px;
+  background-color: #282747;
+  padding: 10px 10px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+.input{
+  padding: 10px 15px;
+  background-color: transparent;
+  color: white;
+  border-radius: 15px;
+  border: 2px solid lightblue;
+  position: relative;
+}
+.input:hover{
+  bottom: 3px;
+  box-shadow: 0 3px 5px 0 white;
+}
+#main>form{
+  font-size:1.9rem;
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+}
+#main>form>*{
+  margin-top:9px;
+  margin-bottom: 9px;
+}
+#main>form>select{
+  padding: 9px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid lightblue;
+}
+#main>form>fieldset{
+  padding: 15px;
+  border-radius: 10px;
+}
+#main>form>fieldset:hover{ 
+  background:black;
+  border: 2px solid lightblue;
+}
+#submit{
+  padding: 5px;
+  width: 100px;
+  border-radius: 15px;
+  color: white;
+  background-color: transparent;
+}
+#submit:hover{
+  background-color: black;
+}
+footer{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  width: 80%;
+  background-color: #282747;
+  margin: 10px auto;
+  padding: 20px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
